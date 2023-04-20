@@ -3,9 +3,10 @@
 <html>
 
 <head>
-  
+    <meta charset="utf-8">
     <title>Contact</title>
     <link rel = "stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width-width, initial-scale=1.0">
 </head>
 
 <body>
@@ -15,13 +16,12 @@
     <hr>
 
     <!--Buttons-->
-    <button style = "margin-left: -380px;"; onclick="HomeButton()">Home</button>
+    <button onclick="HomeButton()">Home</button>
     <button onclick="EduButton()">Education</button>
     <button onclick="ContactButton()">Contact</button>
-    <button onclick="TestButton()">Test</button>
     
     <!--Image-->
-    <img src = "Me.png" height = "400">
+    <img class = "image" src = "Me.png" height = "400">
 
     <!--Functions for buttons-->
     <script>
@@ -45,30 +45,26 @@
         }
     </script>
 
-    <script>
-        function TestButton()
-        {
-            window.location.href = "test.html";
-        }
-    </script>
-
     <br><br>
     
     <!--Text-->
-    <p class = "contact"; style = "font-size: 24px; font-weight: bold; text-decoration: underline;">Linkedln</p>
-    <a href = "https://www.linkedin.com/in/apostolos-foivos-varelas-85a357227" target=_blank>
-        <p class = "contact"; style = "font-size: 20px;">Apostolos Foivos Varelas</p>
-    </a>
-    
-    <p class = "contact"; style = "font-size: 24px; font-weight: bold; text-decoration: underline;">Email Address</p>
-    <p class = "contact"; style = "font-size: 20px;">aposvarelas@gmail.com</p>
-    
-    <p class = "contact"; style = "font-size: 24px; font-weight: bold; text-decoration: underline;">Phone Number</p>
-    <p class = "contact"; style = "font-size: 20px;">+30 6977171050</p>
+    <div class = "contact";>
+        <p style = "font-size: 24px; font-weight: bold; text-decoration: underline;">Linkedln</p>
+        <a href = "https://www.linkedin.com/in/apostolos-foivos-varelas-85a357227" target=_blank>
+            <p style = "font-size: 20px;">Apostolos Foivos Varelas</p>
+        </a>
+        
+        <p style = "font-size: 24px; font-weight: bold; text-decoration: underline;">Email Address</p>
+        <p style = "font-size: 20px;">aposvarelas@gmail.com</p>
+        
+        <p style = "font-size: 24px; font-weight: bold; text-decoration: underline;">Phone Number</p>
+        <p style = "font-size: 20px;">+30 6977171050</p>
 
-    <p class = "contact"; style = "font-size: 24px; font-weight: bold; text-decoration: underline;">GitHub</p>
-    <a href = "https://github.com/ApostolosVarelas" target=_blank>
-        <p class = "contact"; style = "font-size: 20px;">ApostolosVarelas</p>
+        <p style = "font-size: 24px; font-weight: bold; text-decoration: underline;">GitHub</p>
+        <a href = "https://github.com/ApostolosVarelas" target=_blank>
+            <p style = "font-size: 20px;">ApostolosVarelas</p>
+        </a>>
+    </div>
 </body>
 
 </html>
