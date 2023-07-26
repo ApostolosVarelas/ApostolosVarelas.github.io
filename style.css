@@ -27,6 +27,7 @@ button
     width: 120px;
     height: 40px;
     font-size: 16px;
+    
 
 
 }
@@ -42,7 +43,7 @@ h1
     width: 350px;
     box-sizing: border-box;
 
-    background-color:white; 
+    background-color:#ffffff; 
     font-family: sans-serif; 
     display: flex; 
     align-items: center; 
@@ -56,29 +57,41 @@ h1
   }
 
   .education {
-    border: 0px solid black;
+    border: 2px solid black;
     padding: 10px;
-    width: 600px;
+    width: 350px;
     box-sizing: border-box;
     
+    background-color:#ffffff;
     font-family: sans-serif; 
     text-align: center;
 
-    width: 100%;
+    flex: 1;
+    margin-right: auto; 
+    margin-left: auto;
 
   }
 
   .contact {
-    border: 0px solid black;
+    border: 2px solid black;
     padding: 10px;
-    width: 600px;
+    width: 350px;
     box-sizing: border-box;
+    background-color:#ffffff;
 
     font-family: sans-serif; 
     text-align: center;
-    
-    width: 100%;
+
+    flex: 1;
+    margin-right: auto; 
+    margin-left: auto;
+
   }
+
+    .dropdown-content {
+      display: none;
+    }
+
 
 @media only screen and (min-width: 540px) {
   .image {
@@ -98,6 +111,8 @@ h1
   {
     display: flex;
     margin-left: 5%;
+    margin: 0 auto; /* This will horizontally center the div */
+    margin-top: 20px;
 
   }
 
@@ -109,8 +124,11 @@ h1
     
     font-family: sans-serif; 
     text-align: center;
-    
-    
+
+    .button
+    {
+      margin-bottom: 200px;
+    }
 
   }
 }
