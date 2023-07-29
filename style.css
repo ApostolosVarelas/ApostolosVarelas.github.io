@@ -1,14 +1,12 @@
 body
 {
     margin-left: 1px;
-    background-image: url("Backgroud.avif");
+    background-image: url("grey_back.avif");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+    
     background-color:gainsboro ;
 
     width: 100%;
@@ -19,17 +17,24 @@ body
     margin-top: 30px
 }
 
-button
-{
-    text-align: center;
+button {
+  text-align: center;
     border-radius: 5px;
-
     width: 120px;
     height: 40px;
     font-size: 16px;
-    
+}
 
+.button-container
+{
+  display: flex;
+  justify-content: center;
+  gap: 10px
+}
 
+button:hover {
+  background-color: #007BFF;
+  color: #fff;
 }
 
 h1
@@ -62,7 +67,7 @@ h1
     width: 350px;
     box-sizing: border-box;
     
-    background-color:#ffffff;
+    background-color:#746e6e;
     font-family: sans-serif; 
     text-align: center;
 
@@ -88,10 +93,22 @@ h1
 
   }
 
-    .dropdown-content {
-      display: none;
-    }
+  .project {
+    font-family: sans-serif; 
+    list-style-position: inside;
 
+    border: 2px solid black;
+    box-sizing: border-box;
+    width: 50%;
+    padding: 10px;
+    background-color:#ffffff;
+
+    flex: 1;
+    margin-right: auto; 
+    margin-left: auto;
+  }
+
+  
 
 @media only screen and (min-width: 540px) {
   .image {
@@ -117,18 +134,12 @@ h1
   }
 
   .education {
-    border: 0px solid black;
+    border: 2px solid black;
     padding: 10px;
     width: 600px;
     box-sizing: border-box;
     
     font-family: sans-serif; 
     text-align: center;
-
-    .button
-    {
-      margin-bottom: 200px;
-    }
-
   }
 }
