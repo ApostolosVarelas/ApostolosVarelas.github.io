@@ -87,7 +87,7 @@ h1
 
     border: 2px solid black;
     box-sizing: border-box;
-    width: 50%;
+    width: 350px;
     padding: 10px;
     background-color:#ffffff;
 
@@ -135,7 +135,11 @@ h1
   
   .cover_letter {
     width: 700px;
-  } 
+  }
+  
+  .project{
+    width: 50%;
+  }
 }
 
 @media only screen and (min-width: 1000px) 
