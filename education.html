@@ -16,10 +16,12 @@
     <hr>
 
     <!--Buttons-->
-    <button onclick="HomeButton()">Home</button>
-    <button onclick="EduButton()">Education</button>
-    <button onclick="ProjectButton()">Projects</button>
-    <button onclick="ContactButton()">Contact</button>
+    <div class = "button-container">   
+        <button onclick="HomeButton()">Home</button>
+        <button onclick="EduButton()">Education</button>
+        <button onclick="ProjectButton()">Projects</button>
+        <button onclick="ContactButton()">Contact</button>
+    </div>
     
     <!--Image-->
     <img class = "image" src = "Me.png" height = "400">
@@ -56,10 +58,25 @@
     <!--Text-->
     
     <br><br>
-    <p class = "education"; style = "font-size: 24px; font-weight: bold; text-decoration: underline; margin-top:30px">University</p>
-    <p class = "education"; style = "font-size: 20px;">University of Piraeus,Dpt of Digital Systems (BS)</p>
-    <p class = "education"; style = "font-size: 24px; font-weight: bold; text-decoration: underline;">English</p>
-    <p class = "education"; style = "font-size: 20px;margin-bottom: 150px">Michigan English Language Assessment: Lower Certificate</p>
+     <div class= "education">   
+        <a>   
+            <p style = "font-size: 24px; font-weight: bold; text-decoration: underline; margin-top:30px">University</p>
+            <p style = "font-size: 20px;">University of Piraeus,Dpt of Digital Systems (BS)</p>
+        </a>
+        
+            <p style = "font-size: 24px; font-weight: bold; text-decoration: underline;">English</p>
+            <p style = "font-size: 20px;">Michigan English Language Assessment: Lower Certificate</p>
+        </a>
+        <a>
+            <p style = "font-size: 24px; font-weight: bold; text-decoration: underline;">Programming Languages</p>
+            <p style = "font-size: 20px;">Python, C, Java, HTML, CSS, MySQL</p>
+        </a>
+        <a>
+            <p style = "font-size: 24px; font-weight: bold; text-decoration: underline;">Semisters</p>
+            <p style = "font-size: 20px;"><a href="Universal AI Cource.pdf" download>Universal AI Course</a></p>
+
+        </a>
+     </div>>
 
 </body>
 
