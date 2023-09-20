@@ -1,37 +1,65 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projects</title>
     <link rel = "stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width-width, initial-scale=1.0">
 </head>
-
 <body>
     
     <!--Title-->
-    <h1 style = "font-family: sans-serif;">Projects</h1>
+    <h1>VARELAS APOSTOLOS FOIVOS</h1>
     <hr>
+    
+    <!--Hamburger Navigation-->
+    <nav role="navigation">
+        <div id="menuToggle">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+          <ul id="menu">
+            <a href="../index.html"><li>Home</li></a>
+            <a href="education.html"><li>Education</li></a>
+            <a href="projects.html"><li>Projects</li></a>
+          </ul>
+        </div>
+      </nav>
 
     <!--Nav Bar-->
     <div id="navbar">
-        <a href="../index.html">Home</a>
-        <a href="education.html">Education</a>
-        <a href="projects.html">Projects</a>
-        <a href="contact.html">Contact</a>
+        <div id="menu-links">
+            <a href="../index.html">Home</a>
+            <a href="education.html">Education</a>
+            <a href="projects.html">Projects</a>
+        </div>
     </div>
 
+    <!--Contact-->
+
+    <div id="contact-footer">
+        <a href="tel:6977171050" title="Phone Number" target=_blank>
+            <img src="../Images/Phone Icon.jpg" alt="Phone">
+        </a>
+        <a href="https://www.linkedin.com/in/apostolos-foivos-varelas-85a357227" title="LinkedIn Profile" target=_blank>
+            <img src="../Images/LinkedinIcon.png" alt="LinkedIn">
+        </a>
+        <a href="mailto:aposvarelas@gmail.com" title="Send an Email" target=_blank>
+            <img src="../Images/Email Icon.jpg" alt="Email">
+        </a>
+        <a href="https://github.com/ApostolosVarelas" title="GitHub Profile" target=_blank>
+            <img src="../Images/GitHub.png" alt="GitHub">
+        </a>
+    </div>
 
     <!--Image-->
     <img class = "image" src = "../Images/Me.png" alt="Image"  height = "350">
-    
+
     <!--Content-->
-    
-    <p style = "font-size: 24px; font-weight: bold; text-decoration: underline;font-family: sans-serif; text-align: center">Digital Airline Web-Service</p>
+    <p style = "font-size: 20px; font-weight: bold; text-decoration: underline;font-family: sans-serif; text-align: center; margin-top:50px;">Digital Airline Web-Service</p>
     <div class = "project">
-        <p style = "font-size: 20px" >This application is the backend code for a hypothetical airline. The functions of the program for a simple user are as follows:  </p>
+        <p style = "font-size: 15px" >This application is the backend code for a hypothetical airline. The functions of the program for a simple user are as follows:  </p>
         <ul class = "list">
             <li>Registration</li>
             <li>Login/Logout</li>
@@ -43,20 +71,20 @@
             <li>Cancel a reservation</li>
             <li>Delete accout</li>
         </ul>
-        <p style = "font-size: 20px" >In addition, if the user is an admin they can do the following additional operations:</p>
+        <p style = "font-size: 15px" >In addition, if the user is an admin they can do the following additional operations:</p>
         <ul> 
             <li>Create a flight</li>
             <li>Renewal of flight ticket prices</li>
             <li>Delete a flight</li>
             <li>Find more details about a specific flight</li>
         </ul>
-        <p style = "font-size: 20px">More information can be found in the Github repository <a href="https://github.com/ApostolosVarelas/Digital_Airline_Web-service" target="_blank">here</a>.</p>
+        <p style = "font-size: 15px">More information can be found in the Github repository <a href="https://github.com/ApostolosVarelas/Digital_Airline_Web-service" target="_blank">here</a>.</p>
 
     </div>
     
-    <p style = "font-size: 24px; font-weight: bold; text-decoration: underline;font-family: sans-serif; text-align: center">Data Base with Java</p>
+    <p style = "font-size: 20px; font-weight: bold; text-decoration: underline;font-family: sans-serif; text-align: center">Data Base with Java</p>
     <div class = "project">
-        <p style = "font-size: 20px" >This project is an application that makes use of a database. More specifically, it is about a company and the functions it can do are as follows: </p>
+        <p style = "font-size: 15px" >This project is an application that makes use of a database. More specifically, it is about a company and the functions it can do are as follows: </p>
         <ul class = "list">
             <li>Exit program.</li>
             <li>Insert and update queries.</li>
@@ -70,6 +98,7 @@
             <li>Retrieve the list of all "re-orders" of parts stored in the system, sorted by the surname and name of the manager.</li>
             <li>Delete for a company employee a specific contact phone number assigned in the database</li>
         </ul>
-        <p style = "font-size: 20px">More information can be found in the Github repository <a href="https://github.com/ApostolosVarelas/DataBase_use_with_java" target="_blank">here</a>.</p>
+        <p style = "font-size: 15px">More information can be found in the Github repository <a href="https://github.com/ApostolosVarelas/DataBase_use_with_java" target="_blank">here</a>.</p>
 </body>
+
 </html>
