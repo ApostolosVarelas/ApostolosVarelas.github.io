@@ -46,31 +46,28 @@
       </div>
     </section>
 
-    <!-- ===== About ===== -->
+    <!-- ===== About + Skills (side-by-side) ===== -->
     <section class="about" id="about" aria-labelledby="about-title">
-      <div class="container grid grid-2">
-        <div class="card">
+      <div class="container grid grid-2 about-skills">
+        <!-- About -->
+        <div class="card about-card">
           <h2 id="about-title">About me</h2>
-          <p>I’ve been working on single-agent and multi-agent projects, exploring both collaborative and competitive scenarios. My main focus is on deep networks and machine learning, with a strong interest in reinforcement learning and how it can be applied to real problems. I use Python a lot, not just for model development but also for automation and building tools that make projects run smoothly. On the robotics side, I’m growing my experience as a junior developer, working with ROS2 and getting hands-on with how intelligent systems can interact with the real world. I like connecting these areas together — from theory to code to practical systems — and pushing projects a step further each time.</p>
+          <p>
+            I’ve been working on single-agent and multi-agent projects, exploring both collaborative and competitive scenarios.
+            My main focus is on deep networks and machine learning, with a strong interest in reinforcement learning and how it
+            can be applied to real problems. I use Python a lot, not just for model development but also for automation and
+            building tools that make projects run smoothly. On the robotics side, I’m growing my experience as a junior developer,
+            working with ROS2 and getting hands-on with how intelligent systems can interact with the real world. I like connecting
+            these areas together — from theory to code to practical systems — and pushing projects a step further each time.
+          </p>
         </div>
-        <div class="card">
-          <h2>What I bring</h2>
-          <ul>
-            <li>End-to-end ownership: from idea to deploy</li>
-            <li>Strong communication & documentation</li>
-            <li>Obsessed with testing, performance, and UX</li>
-          </ul>
-        </div>
-      </div>
-    </section>
 
-    <!-- ===== Skills ===== -->
-    <section class="skills" id="skills" aria-labelledby="skills-title">
-      <div class="container">
-        <h2 id="skills-title">Skills</h2>
-        <div class="card" style="padding:24px; margin-top:12px;">
-          <div class="grid grid-3">
-            <div>
+        <!-- Skills (now beside About) -->
+        <div class="card skills-card">
+          <h2 id="skills">Skills</h2>
+
+          <div class="skills-groups">
+            <div class="group">
               <h3>Languages</h3>
               <div class="stack">
                 <span class="chip">Python</span>
@@ -79,7 +76,8 @@
                 <span class="chip">SQL</span>
               </div>
             </div>
-            <div>
+
+            <div class="group">
               <h3>Frameworks & Tools</h3>
               <div class="stack">
                 <span class="chip">PyTorch</span>
@@ -90,7 +88,8 @@
                 <span class="chip">GitHub Actions</span>
               </div>
             </div>
-            <div>
+
+            <div class="group">
               <h3>Domains</h3>
               <div class="stack">
                 <span class="chip">Remote Sensing</span>
@@ -101,96 +100,95 @@
             </div>
           </div>
         </div>
-        <p class="muted" style="margin-top:10px;">Tip: keep this concise—link to a full stack list on your CV page.</p>
       </div>
     </section>
 
     <!-- ===== Featured Projects ===== -->
-<section class="projects" id="projects" aria-labelledby="projects-title">
-  <div class="container">
-    <h2 id="projects-title">Featured projects</h2>
-    <div class="grid grid-3" style="margin-top:16px;">
-      
-      <!-- Project 1: Agent Auction -->
-      <article class="project card" aria-labelledby="p1-title">
-        <div class="media" role="img" aria-label="Screenshot placeholder for Agent Auction"></div>
-        <div class="body">
-          <h3 id="p1-title">Agent Auction</h3>
-          <p class="muted">Multi-agent auction system with Python, simulating bidding strategies and decision-making logic.</p>
-          <div class="meta">
-            <span class="chip">Python</span><span class="chip">Agents</span><span class="chip">Simulation</span>
-          </div>
-          <div class="actions">
-            <a class="btn ghost" href="https://github.com/ApostolosVarelas/Agent-Auction">Source</a>
-          </div>
+    <section class="projects" id="projects" aria-labelledby="projects-title">
+      <div class="container">
+        <h2 id="projects-title">Featured projects</h2>
+        <div class="grid grid-3" style="margin-top:16px;">
+
+          <!-- Project 1: Agent Auction -->
+          <article class="project card" aria-labelledby="p1-title">
+            <div class="media" role="img" aria-label="Screenshot placeholder for Agent Auction"></div>
+            <div class="body">
+              <h3 id="p1-title">Agent Auction</h3>
+              <p class="muted">Multi-agent auction system with Python, simulating bidding strategies and decision-making logic.</p>
+              <div class="meta">
+                <span class="chip">Python</span><span class="chip">Agents</span><span class="chip">Simulation</span>
+              </div>
+              <div class="actions">
+                <a class="btn ghost" href="https://github.com/ApostolosVarelas/Agent-Auction">Source</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: DeepFake Detection -->
+          <article class="project card" aria-labelledby="p2-title">
+            <div class="media" role="img" aria-label="Screenshot placeholder for DeepFake Detection"></div>
+            <div class="body">
+              <h3 id="p2-title">DeepFake Detection</h3>
+              <p class="muted">AI pipeline for detecting deepfakes using CNNs, transformers, and attention-based models with Grad-CAM explainability.</p>
+              <div class="meta">
+                <span class="chip">PyTorch</span><span class="chip">Computer Vision</span><span class="chip">MLOps</span>
+              </div>
+              <div class="actions">
+                <a class="btn ghost" href="https://github.com/ApostolosVarelas/DeepFakeDetection">Source</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3: Air Quality Beijing -->
+          <article class="project card" aria-labelledby="p3-title">
+            <div class="media" role="img" aria-label="Screenshot placeholder for Air Quality Beijing"></div>
+            <div class="body">
+              <h3 id="p3-title">Air Quality Beijing</h3>
+              <p class="muted">Data analysis and machine learning on Beijing air quality dataset, predicting pollutants and visualizing environmental trends.</p>
+              <div class="meta">
+                <span class="chip">Python</span><span class="chip">Pandas</span><span class="chip">ML</span>
+              </div>
+              <div class="actions">
+                <a class="btn ghost" href="https://github.com/ApostolosVarelas/air_quality_Beijing">Source</a>
+              </div>
+            </div>
+          </article>
+
         </div>
-      </article>
+      </div>
+    </section>
 
-      <!-- Project 2: DeepFake Detection -->
-      <article class="project card" aria-labelledby="p2-title">
-        <div class="media" role="img" aria-label="Screenshot placeholder for DeepFake Detection"></div>
-        <div class="body">
-          <h3 id="p2-title">DeepFake Detection</h3>
-          <p class="muted">AI pipeline for detecting deepfakes using CNNs, transformers, and attention-based models with Grad-CAM explainability.</p>
-          <div class="meta">
-            <span class="chip">PyTorch</span><span class="chip">Computer Vision</span><span class="chip">MLOps</span>
-          </div>
-          <div class="actions">
-            <a class="btn ghost" href="https://github.com/ApostolosVarelas/DeepFakeDetection">Source</a>
-          </div>
+    <!-- ===== Contact ===== -->
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <div class="container grid grid-2">
+        <div class="card">
+          <h2 id="contact-title">Let’s build something</h2>
+          <p>Best way to reach me:
+            <a href="mailto:aposvarelas@gmail.com">aposvarelas@gmail.com</a>.
+          </p>
+          <small>Or use the form—your message goes to my email via your default mail app.</small>
         </div>
-      </article>
-
-      <!-- Project 3: Air Quality Beijing -->
-      <article class="project card" aria-labelledby="p3-title">
-        <div class="media" role="img" aria-label="Screenshot placeholder for Air Quality Beijing"></div>
-        <div class="body">
-          <h3 id="p3-title">Air Quality Beijing</h3>
-          <p class="muted">Data analysis and machine learning on Beijing air quality dataset, predicting pollutants and visualizing environmental trends.</p>
-          <div class="meta">
-            <span class="chip">Python</span><span class="chip">Pandas</span><span class="chip">ML</span>
-          </div>
-          <div class="actions">
-            <a class="btn ghost" href="https://github.com/ApostolosVarelas/air_quality_Beijing">Source</a>
-          </div>
+        <div class="card">
+          <!-- Mailto form -->
+          <form method="get" action="mailto:aposvarelas@gmail.com">
+            <label>
+              Your Email
+              <input type="email" name="from" placeholder="you@example.com" aria-label="Your email" required>
+            </label>
+            <label>
+              Name
+              <input type="text" name="subject" placeholder="Your Name" aria-label="Your Name" required>
+            </label>
+            <label>
+              Message
+              <textarea name="body" placeholder="Say hello world" aria-label="Your message" required></textarea>
+            </label>
+            <button class="btn" type="submit">Send</button>
+          </form>
         </div>
-      </article>
-
-    <!-- </div>
-    <p class="muted" style="margin-top:14px;">Want more? Visit the <a href="/blog/">Blog/Insights</a> or <a href="/cv/">Full CV</a> pages.</p>
-  </div> -->
-</section>
-
-<!-- ===== Contact ===== -->
-<section class="contact" id="contact" aria-labelledby="contact-title">
-  <div class="container grid grid-2">
-    <div class="card">
-      <h2 id="contact-title">Let’s build something</h2>
-      <p>Best way to reach me: 
-        <a href="mailto:aposvarelas@gmail.com">aposvarelas@gmail.com</a>.
-      </p>
-      <small>Or use the form—your message goes to my email via your default mail app.</small>
-    </div>
-    <div class="card">
-      <!-- Mailto form -->
-      <form method="get" action="mailto:aposvarelas@gmail.com">
-        <label>
-          Your Email
-          <input type="email" name="from" placeholder="you@example.com" aria-label="Your email" required>
-        </label>
-        <label>
-          Name
-          <input type="text" name="subject" placeholder="Your Name" aria-label="Your Name" required>
-        </label>
-        <label>
-          Message
-          <textarea name="body" placeholder="Say hello world" aria-label="Your message" required></textarea>
-        </label>
-        <button class="btn" type="submit">Send</button>
-      </form>
-    </div>
-  </div>
-</section>
+      </div>
+    </section>
+  </main>
 
   <!-- ===== Footer ===== -->
   <footer>
@@ -199,8 +197,7 @@
         <div>© <span id="year"></span> Apostolos Varelas</div>
         <div style="text-align:right;">
           <a href="https://github.com/ApostolosVarelas">GitHub</a> ·
-          <a href="https://www.linkedin.com/in/apostolos-foivos-varelas-85a357227/">LinkedIn</a> ·
-          <!-- <a href="mailto:aposvarelas@gmail.com"> Email Me </a> -->
+          <a href="https://www.linkedin.com/in/apostolos-foivos-varelas-85a357227/">LinkedIn</a>
         </div>
       </div>
     </div>
