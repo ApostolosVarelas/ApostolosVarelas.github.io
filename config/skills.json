@@ -1,0 +1,41 @@
+[
+  {
+    "category": "Programming",
+    "items": [
+      "Python",
+      "C",
+      "Docker",
+      "Git"
+    ]
+  },
+  {
+    "category": "Data & Geospatial",
+    "items": [
+      "NumPy",
+      "GDAL",
+      "Rasterio",
+      "GeoPandas",
+      "Matplotlib"
+    ]
+  },
+  {
+    "category": "AI / ML",
+    "items": [
+      "Neural Networks",
+      "CNN / RNN / LSTM",
+      "Transformer",
+      "LLM",
+      "Reinforcement Learning",
+      "AI Agents",
+      "PyTorch"
+    ]
+  },
+  {
+    "category": "Robotics & Automation",
+    "items": [
+      "ROS2",
+      "Robotics",
+      "Automation Systems"
+    ]
+  }
+]

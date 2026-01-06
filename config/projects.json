@@ -1,0 +1,24 @@
+[
+  {
+    "title": "Agent Auction",
+    "description": "Multi-agent auction system with Python, simulating bidding strategies and decision-making logic.",
+    "tags": ["Python", "Agents", "Simulation"],
+    "link": "https://github.com/ApostolosVarelas/Agent-Auction",
+    "image": "" 
+  },
+  {
+    "title": "DeepFake Detection",
+    "description": "AI pipeline for detecting deepfakes using CNNs, transformers, and attention-based models with Grad-CAM explainability.",
+    "tags": ["PyTorch", "Computer Vision", "MLOps"],
+    "link": "https://github.com/ApostolosVarelas/DeepFakeDetection",
+    "image": ""
+  },
+  {
+    "title": "Air Quality Beijing",
+    "description": "Data analysis and machine learning on Beijing air quality dataset, predicting pollutants and visualizing environmental trends.",
+    "tags": ["Python", "Pandas", "ML"],
+    "link": "https://github.com/ApostolosVarelas/air_quality_Beijing",
+    "image": ""
+  }
+  
+]
