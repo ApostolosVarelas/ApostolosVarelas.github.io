@@ -5,7 +5,8 @@
       "Python",
       "C",
       "Docker",
-      "Git"
+      "Git",
+      "Unit Testing"
     ]
   },
   {
@@ -15,7 +16,8 @@
       "GDAL",
       "Rasterio",
       "GeoPandas",
-      "Matplotlib"
+      "Matplotlib",
+      "ESA SNAP"
     ]
   },
   {
@@ -35,7 +37,8 @@
     "items": [
       "ROS2",
       "Robotics",
-      "Automation Systems"
+      "MuJoCo",
+      "Robot Navigation"
     ]
   }
 ]
