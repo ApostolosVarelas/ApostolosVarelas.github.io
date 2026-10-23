@@ -1,44 +1,48 @@
 [
   {
-    "category": "Programming",
+    "category": "Robotics & Autonomy",
     "items": [
-      "Python",
-      "C",
-      "Docker",
-      "Git",
-      "Unit Testing"
+      "ROS 2",
+      "MuJoCo",
+      "Autonomous Navigation",
+      "Task Planning"
+    ]
+  },
+  {
+    "category": "Machine Learning",
+    "items": [
+      "PyTorch",
+      "scikit-learn",
+      "Computer Vision",
+      "Deep Learning",
+      "Reinforcement Learning",
+      "Transformers",
+      "LLM Integration"
     ]
   },
   {
     "category": "Data & Geospatial",
     "items": [
       "NumPy",
+      "pandas",
+      "OpenCV",
       "GDAL",
       "Rasterio",
       "GeoPandas",
-      "Matplotlib",
-      "ESA SNAP"
+      "xarray",
+      "Dask",
+      "Sentinel-1/2/3"
     ]
   },
   {
-    "category": "AI / ML",
+    "category": "Engineering",
     "items": [
-      "Neural Networks",
-      "CNN / RNN / LSTM",
-      "Transformer",
-      "LLM",
-      "Reinforcement Learning",
-      "AI Agents",
-      "PyTorch"
-    ]
-  },
-  {
-    "category": "Robotics & Automation",
-    "items": [
-      "ROS2",
-      "Robotics",
-      "MuJoCo",
-      "Robot Navigation"
+      "Docker",
+      "Git",
+      "Linux",
+      "pytest",
+      "REST APIs",
+      "S3-Compatible Storage"
     ]
   }
 ]

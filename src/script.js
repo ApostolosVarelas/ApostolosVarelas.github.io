@@ -18,9 +18,12 @@ async function loadProjects() {
       const tagsHtml = project.tags
         .map((tag) => `<span class="chip">${tag}</span>`)
         .join("");
+      const mediaHtml = project.image
+        ? `<div class="media"><img src="${project.image}" alt="${project.imageAlt || "Preview of " + project.title}" loading="lazy"></div>`
+        : `<div class="media" aria-hidden="true"></div>`;
 
       article.innerHTML = `
-        <div class="media" role="img" aria-label="Screenshot of ${project.title}"></div>
+        ${mediaHtml}
         <div class="body">
           <h3>${project.title}</h3>
           <p class="muted">${project.description}</p>

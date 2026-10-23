@@ -1,24 +1,26 @@
 [
   {
-    "title": "Agent Auction",
-    "description": "Multi-agent auction system with Python, simulating bidding strategies and decision-making logic.",
-    "tags": ["Python", "Agents", "Simulation"],
-    "link": "https://github.com/ApostolosVarelas/Agent-Auction",
-    "image": "" 
+    "title": "Hex Soccer RL",
+    "description": "A two-agent soccer environment on a hexagonal grid, featuring Q-learning and prioritized sweeping agents trained through self-play.",
+    "tags": ["Reinforcement Learning", "Q-Learning", "Multi-Agent", "Python", "Pygame"],
+    "link": "https://github.com/ApostolosVarelas/hex-soccer-rl",
+    "image": "config/project-images/hex-soccer-gameplay.png",
+    "imageAlt": "Hex Soccer gameplay interface with two agents and a ball on a hexagonal field"
   },
   {
-    "title": "DeepFake Detection",
-    "description": "AI pipeline for detecting deepfakes using CNNs, transformers, and attention-based models with Grad-CAM explainability.",
-    "tags": ["PyTorch", "Computer Vision", "MLOps"],
-    "link": "https://github.com/ApostolosVarelas/DeepFakeDetection",
-    "image": ""
+    "title": "Deepfake Video Detection",
+    "description": "A PyTorch pipeline comparing ResNet50, Xception, and Swin Transformer for video-level deepfake detection with Grad-CAM explainability.",
+    "tags": ["PyTorch", "Computer Vision", "Transfer Learning", "Explainability"],
+    "link": "https://github.com/ApostolosVarelas/deepfake-video-detection",
+    "image": "config/project-images/deepfake-gradcam.png",
+    "imageAlt": "Grad-CAM heatmaps from the deepfake video detection pipeline"
   },
   {
-    "title": "Air Quality Beijing",
-    "description": "Data analysis and machine learning on Beijing air quality dataset, predicting pollutants and visualizing environmental trends.",
-    "tags": ["Python", "Pandas", "ML"],
-    "link": "https://github.com/ApostolosVarelas/air_quality_Beijing",
-    "image": ""
+    "title": "Airport Slot Auction",
+    "description": "A multi-agent simulation comparing auction designs, valuation models, and bidding strategies for allocating airport arrival and departure slots.",
+    "tags": ["Multi-Agent Systems", "Simulation", "Game Theory"],
+    "link": "https://github.com/ApostolosVarelas/airport-slot-auction",
+    "image": "config/project-images/airport-slot-auction.png",
+    "imageAlt": "Airport layout used by the slot auction simulation"
   }
-  
 ]
